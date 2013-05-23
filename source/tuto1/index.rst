@@ -1,10 +1,10 @@
-Créer et utiliser un serveur web
-################################
+Créer et programmer un micro serveur web
+########################################
 
 Introduction et conseils
 ========================
 
-Dans ce tutoriel, vous allez apprendre à créer et programmer un
+Dans ce tutoriel, vous allez apprendre à créer et programmer un micro
 serveur web. Nous allons utiliser pour cela le micro framework python
 *bottle* (http://bottlepy.org/docs/stable/), qui a l'avantage d'être
 assez simple à mettre en oeuvre.
@@ -385,20 +385,6 @@ Exercices
   faut importer la fonction datetime du module datetime via ``from
   datetime import datetime``.
 
-Etape 5 : récupérer des paramètres venant du navigateur : query string
-======================================================================
-
-TODO :-)
-
-
-Etape 6 : récupérer des paramètres venant du navigateur : POST forms
-====================================================================
-
-TODO :-)
-
-Etape 7 : persistence de l'information: cookies et sessions
-===========================================================
-
-TODO :-)
-
-
+Une fois que vous avez terminé ces premières étapes, il est désormais
+temps d'intéragir un peu avec notre serveur. :doc:`Aller aux étapes
+suivantes <getpost>`

@@ -3,18 +3,20 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Cours ISN's documentation!
-=====================================
+Cours ISN
+=========
 
-Contents:
+Table des matières:
 
 .. toctree::
    :maxdepth: 2
 
+   bases/index
    tuto1/index
+   tuto1/getpost
 
-Indices and tables
-==================
+Index et tableaux
+=================
 
 * :ref:`genindex`
 * :ref:`modindex`
