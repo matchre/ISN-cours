@@ -11,6 +11,7 @@ Table des matières:
 .. toctree::
    :maxdepth: 2
 
+   shell/index
    bases/index
    tuto1/index
    tuto1/getpost
