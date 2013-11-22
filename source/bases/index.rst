@@ -235,7 +235,7 @@ On peut récupérer une sous partie d'une chaine en utilisant un
 >>> a[2]
 'E'
 
-Les positions sont comptées à partir de zéro pour le premier
+Les positions **sont comptées à partir de zéro** pour le premier
 caractère. Le premier indice donné correspond au premier caractère
 extrait (inclus), le deuxième indice donné correspond au premier
 caractère non extrait (exclus).
@@ -275,7 +275,55 @@ regrouper différentes valeurs. Un de ces types est la liste
 virgules. Comme pour les chaînes de caractères, on peut accéder à des
 portions de la liste en utilisant des slices.
 
+>>> l=[1,2,3]
+>>> l
+[1, 2, 3]
+>>> l[1]
+2
+>>> l[1:]
+[2, 3]
+>>> l[:2]
+[1, 2]
+>>> l[1::-1]
+[2, 1]
+>>> l[::-1]
+[3, 2, 1]
+>>> l[::-2]
+[3, 1]
+
+
 Mais à la différence des chaînes de caractères, on peut aussi changer
 un ou plusieurs éléments d'une liste.
 
+>>> l[1]=9
+>>> l
+[1, 9, 3]
+
+Un élément de liste peut être de n'importe quel type : nombre entier,
+flottant, chaîne de caractères, voire autre liste :
+
+>>> l[2]=['A', 'zer', 'TY']
+>>> l
+[1, 9, ['A', 'zer', 'TY']]
+
+Dans le cas d'éléments imbriqués (ci-dessus par exemple : caractère
+dans chaine dans liste dans liste), on peut accéder aux différents
+niveaux par des [] successifs.
+
+Exemple : je veux le 3ème élément de la liste l (['A', 'zer', 'TY']),
+dans ce troisième élément je veux le deuxième élément ('zer'), dans de
+deuxième élément je veux le troisième ('r').
+
+>>> l[2][1][2]
+'r'
+
 Voir http://docs.python.org/2/tutorial/introduction.html#lists
+
+Dictionnaires
+-------------
+
+
+
+
+
+

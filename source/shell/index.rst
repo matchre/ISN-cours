@@ -27,9 +27,9 @@ Le répertoire "home" de l'utilisateur est abrégé en ~
 Trucs pratiques
 ===============
 
-* complétion automatique : usez et abusez de la touche TAB qui
+* **complétion automatique** : usez et abusez de la touche TAB qui
   complète les commandes, les noms de répertoires et de fichiers
-* copier / coller : sélectionner un texte avec la souris, il est
+* **copier / coller** : sélectionner un texte avec la souris, il est
   copié; cliquez quelque part avec le bouton du milieu (la roulette),
   il est collé
 
@@ -69,6 +69,30 @@ Navigation et gestion des fichiers
 
 * **touch nomfichier** : crée un fichier vide appelé *nomfichier*
 
+* **man nomcommande** : affiche la page de manuel d'une commande
+
 Réseau
 ------
 
+* **ping xxx.xxx.xxx.xxx** : ping (icmp) une adresse ip (on peut aussi
+  utiliser un nom de domaine à la place d'une adresse ip, dans ce cas
+  la résolution est faite avant de lancer la commande..)
+
+* **traceroute xxx.xxx.xxx.xxx** : renvoie la route vers une ip (ou
+  comme ci-dessus un domaine)
+
+* **ip addr** : affiche les interfaces réseau de la machine et leurs
+  caractéristiques
+
+* **whois IP/domaine** : renvoie les informations du registre sur un
+  domaine ou une adresse IP
+
+* **dig [@serveur] domaine** : interroge un serveur DNS (par défaut,
+  ceux configurés par le système, sauf si @serveur est fourni) pour
+  résolution du ddomaine (par défaut : champ A)
+
+* **nmap IP/domaine** : scanne les ports ouverts d'une machine (moult
+  options disponibles, RTFM)
+
+* **wireshark** : pas une appli ligne de commande, mais qui est utile
+  dans la catégorie "réseaux"
