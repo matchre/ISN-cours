@@ -9,10 +9,11 @@ Cours ISN
 Table des matières:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    shell/index
    bases/index
+   bases/exos
    tuto1/index
    tuto1/getpost
 

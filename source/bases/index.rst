@@ -322,8 +322,91 @@ Voir http://docs.python.org/2/tutorial/introduction.html#lists
 Dictionnaires
 -------------
 
+Les listes sont pratiques, mais le fait de ne pouvoir accéder aux
+éléments que par leur numéro manque un peu de "lisibilité". Pour
+stocker des informations qui ont un sens (exemple: un contact, avec
+son nom, son prénom, son mail), il est plus pratique d'utiliser un
+dictionnaire. Chaque élément du dictionnaire (valeur) est associé à
+une clef (key). A l'intérieur d'accolades, la clef (le plus souvent
+une chaîne de caractères), est associée à sa valeur par le symbole
+deux points (:). Les différentes clefs:valeur sont séparées par des
+virgules.
+
+>>> d = {'nom': "BARBIER", 'prenom': "Jean-Matthieu", 'email':""}
+>>> d
+{'nom': 'BARBIER', 'prenom': 'Jean-Matthieu', 'email': ''}
+
+On accède à un élément du dictionnaire en donnant la clef entre
+crochets :
+
+>>> d['nom']
+"BARBIER"
+
+Les structures du langage
+=========================
+
+si alors / sinon-si / sinon : if elif else
+------------------------------------------
+
+Structure de if/then/else ::
+
+  if TEST1:
+    instruction1
+    instruction2
+    ...
+  elif TEST2:
+    instruction3
+    instruction4
+  else:
+    instruction5
+    instruction6
+
+TEST1, TEST2 et TEST3 sont des expressions qui sont évaluées comme des
+booléens (True/False). Les tests que l'on peut faire sont :
+
+- égalité : A==B
+- différence : A!=B
+- supérieur : A>B (ou A>=B)
+- inférieur : A<B (ou A<=B)
+- négation (contraire) : not A
+
+On peut aussi utiliser directement une valeur : les valeurs [],{},0,""
+sont considérées comme False, tout le reste comme True.
+
+Il ne faut pas oublier les : à la fin de la ligne du if/elif/else; ce
+sont eux qui indiquent que la ligne de test / condition est finie, et
+que tout ce qui est en dessous indenté d'un cran est à exécuter si la
+condition est vraie. elif et else sont facultatifs.
 
 
+boucle for
+----------
 
+Exemple ::
 
+  for i in range(1,20):
+    print i
+
+Sortie prématurée du niveau courant de boucle : break ::
+
+  for i in range(1,20):
+    if i>10:
+      break
+
+Retour prématuré au début de la boucle : continue ::
+
+  for i in range(1,20):
+    print "."
+    if i>10:
+      continue
+    print "-"
+
+boucle while
+------------
+
+Exemple ::
+
+  while TEST:
+    instruction1
+    instruction2
 
