@@ -7,7 +7,16 @@ Exercices sur les boucles et tests
 
 
 * Ecrire un programme qui affiche les 25 premiers éléments de la suite
-  de Fibonacci (F(0)=1, F(2)=1, F(n+2)=F(n+1)+F(n))
+  de Fibonacci (F(0)=1, F(1)=1, F(n+2)=F(n+1)+F(n)) ::
+
+    n2=0
+    n1=1
+    n0=0
+    for i in range(2,25):
+        n2=n1+n0
+        n0=n1
+        n1=n2
+        print n2
 
 
 * Ecrire un programme qui affiche les tables d'addition et de
@@ -28,4 +37,7 @@ Exercices sur les boucles et tests
 * Ecrire un programme qui trouve tous les nombres premiers inférieurs
   à une certaine valeur en utilisant le crible d'Eratosthene.
 
+
+Correction des exos
+===================
 
