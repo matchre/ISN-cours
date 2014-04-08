@@ -1,4 +1,8 @@
-CoursISN
-========
+Cours d'ISN
+===========
 
-Cours Informatique et Sciences du Numérique
+Cours et mémos pour l'Informatique et Sciences du Numérique
+
+http://isn-cours.readthedocs.org
+
+JM Barbier - LGT Dumezil

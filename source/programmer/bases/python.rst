@@ -1,7 +1,3 @@
-###################
-Les bases du python
-###################
-
 Ecrire un programme
 ===================
 

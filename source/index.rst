@@ -1,24 +1,30 @@
-.. Cours ISN documentation master file, created by
-   sphinx-quickstart on Thu Mar  7 22:17:56 2013.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Cours ISN
 =========
 
-Table des matières:
+Documents de cours, mémos et exemples pour la spécialité ISN.
+
+**Avertissement : de nombreuses parties restent à compléter ou sont**
+**susceptibles de contenir des bugs/erreurs**
+
+
+Table des matières
+------------------
 
 .. toctree::
    :maxdepth: 3
 
-   shell/index
-   bases/index
-   bases/exos
-   tuto1/index
-   tuto1/getpost
+   architecture/index
+   linux/index
+   information/index
+   reseaux/index
+   programmer/bases/index
+   algo/index
+   tutos/index
+
+
 
 Index et tableaux
-=================
+-----------------
 
 * :ref:`genindex`
 * :ref:`modindex`
